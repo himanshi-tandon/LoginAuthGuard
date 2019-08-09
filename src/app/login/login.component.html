@@ -1,0 +1,17 @@
+<form class="div-login" (submit)="loginuser($event)" >
+  <div>
+      <br/><br/>
+      <label>UserName</label><br/><br/>
+      <input name="username" type="text" [(ngModel)]="username" >
+  </div>
+  <div>
+      <br/><br/>
+      <label>Password</label><br/><br/>
+      <input  name="password" type="password" [(ngModel)]="password"  >
+  </div>
+  <div>
+    <input type="submit" value="Login">
+  </div>
+</form>
+<!-- {{username}}
+{{password}} -->
